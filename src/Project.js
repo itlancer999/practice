@@ -81,8 +81,11 @@ padding:20px;
 
   flex: 2 0 100%;
 }
-}
 
+.card{
+  padding:5px 10px 80px 5px;
+}
+}
 `;
 
 export const Project = () => (
@@ -184,13 +187,7 @@ export const Project = () => (
         <h1 className="circle">3</h1>
         <Card.Body>
         <Card.Title>Tech Aversion</Card.Title>
-        <Card.Text>The prevalent pain point lies in the significant portion of 
-          the local population, 
-          particularly older 
-          residents, who strugle with  
-          hesitancy and
-          unfamiliarity when navigating online 
-          ordering platforms. 
+        <Card.Text>The prevalent pain point lies in the significant portion of the local population, particularly older residents, who strugle with hesitancy and unfamiliarity when navigating online ordering platforms. 
           
           </Card.Text>
           </Card.Body>

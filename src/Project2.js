@@ -81,6 +81,10 @@ padding:20px;
 
   flex: 2 0 100%;
 }
+
+.card {
+  padding:5px 10px 80px 5px;
+
 }
 
 `;
