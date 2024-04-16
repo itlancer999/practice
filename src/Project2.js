@@ -105,7 +105,7 @@ export const Project2 = () => (
     <span className="faint">UI/UX Design, Research Case Study</span>
     <br/>
     <br/>
-    <Link href="/">Figma Design files</Link>
+    <Link href="https://www.figma.com/file/N5JTOVf1nSVcJ9PuXsnSvG/Untitled?type=design&node-id=0%3A1&mode=design&t=HlnZppiEng32Pdy9-1">Figma Design files</Link>
     </Col>
     <Col>
     <span className= "bo">TIMELINE</span>
