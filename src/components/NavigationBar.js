@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import { Nav, Navbar } from 'react-bootstrap';
 import styled from 'styled-components';
@@ -52,7 +52,14 @@ const Styles = styled.div`
   }
 `;
 
-export const NavigationBar = () => (
+export const NavigationBar = () => {
+  const [expanded, setExpanded] = useState(false);
+
+const toggleNav = () => {
+  setExpanded(!expanded);
+};
+
+return (
   <Styles>
     
     <Navbar  bg='transparent' expand='lg' collapseOnSelect className="NavBar">
@@ -60,7 +67,9 @@ export const NavigationBar = () => (
         <img width="65px" height="65px" alt="logo" src="./images/logo.png"/>
       </Navbar.Brand>
 
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Toggle onClick={toggleNav} aria-controls="basic-navbar-nav" >
+        {expanded ? <span>&#10006;</span> : <span>&#9776;</span>}
+      </Navbar.Toggle>
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto">
           <Nav.Item>
@@ -86,3 +95,4 @@ export const NavigationBar = () => (
     </Navbar>
   </Styles >
 )
+}
