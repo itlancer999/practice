@@ -65,7 +65,7 @@ const Styles = styled.div`
   box-shadow:0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-@media screen and (max-width:959px){
+@media screen and (max-width:768px){
 
   .down {
     padding-bottom:10px;
@@ -188,7 +188,7 @@ export const Home = () => (
               <p className="pt-3">
               But my journey doesn't stop there. Alongside my professional pursuits, I embrace the challenges and joys of motherhood, raising two incredible children. This experience has taught me the importance of empathy, adaptability, and resilience—qualities that I bring to every project.
               </p>
-              <p className="pt-3">Now, after a fulfilling hiatus, I'm eager to make a strong comeback and immerse myself once again in the world of creativity and innovation. I believe in the power of collaboration, iteration, and continuous learning, and I'm excited to embark on this journey with renewed vigor.
+              <p className="pt-3">Now, after a fulfilling break, I'm eager to make a strong comeback and immerse myself once again in the world of creativity and innovation. I believe in the power of collaboration, iteration, and continuous learning, and I'm excited to embark on this journey with renewed vigor.
               </p>
               <p className="pt-3">Join me as we explore the endless possibilities of user-centric design together. Let's craft experiences that inspire, empower, and transform lives.</p>
               <p className="pt-3">Thank you for visiting, and I look forward to connecting with you soon!</p>
