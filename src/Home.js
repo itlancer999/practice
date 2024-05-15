@@ -158,9 +158,9 @@ export const Home = () => (
             <Card style={{ width: '18rem' }}>
               <Card.Img variant="top" src="./images/3rd.png" />
               <Card.Body>
-                <Card.Title>Streamlining Mobile Banking for Senior Citizens (Coming Soon)</Card.Title>
+                <Card.Title>WellNest: Mental Health Support Platform (Coming Soon)</Card.Title>
                 
-                <Link to="/Project">Details</Link>
+                <Link to="#">Details</Link>
               </Card.Body>
             </Card>
             </Col>

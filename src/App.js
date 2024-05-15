@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import {Home} from './Home';
 import {Project} from './Project';
 import {Project2} from './Project2';
+import {Project3} from './Project3';
 import {Layout} from './components/Layout';
 import {NavigationBar} from './components/NavigationBar';
 import {Footer} from './Footer';
@@ -24,6 +25,7 @@ class App extends Component {
             <Route exact path="/" element={<Home />} />
             <Route  path="Project" element={<Project />} />
             <Route  path="Project2" element={<Project2 />} />
+            <Route  path="Project3" element={<Project3 />} />
 
           </Routes>
 
