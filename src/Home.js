@@ -58,6 +58,10 @@ const Styles = styled.div`
 
 }
 
+.highlighted{
+  background-color: #e7f097;
+
+}
 .card{
   background-color:transparent;
   border: 2px solid #000;
@@ -116,7 +120,7 @@ export const Home = () => (
                         <h1 className="header faint">Maryam M.</h1>
                         <h1 className="header-under">UX Designer</h1>
                         <h2 className="tag">I <span className="highlight">design</span>, <span className="highlight">draw</span> and <span className="highlight">code</span>.</h2>
-                        <h2 className="tag">Currently Volunteering with North East Farmers of Color for their Research Project</h2>
+                        <h2 className="tag">Currently, <span className="highlighted">Volunteering</span> with North East Farmers of Color for their <span className="highlighted">Research Project</span></h2>
                 </main>
               </Col>
   
