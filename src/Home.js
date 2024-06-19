@@ -116,7 +116,7 @@ export const Home = () => (
                         <h1 className="header faint">Maryam M.</h1>
                         <h1 className="header-under">UX Designer</h1>
                         <h2 className="tag">I <span className="highlight">design</span>, <span className="highlight">draw</span> and <span className="highlight">code</span>.</h2>
-                      
+                        <h2 className="tag">Currently Volunteering with North East Farmers of Color for their Research Project</h2>
                 </main>
               </Col>
   
