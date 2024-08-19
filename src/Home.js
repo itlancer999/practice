@@ -141,7 +141,7 @@ export const Home = () => (
           <Row className="pt-5 d-flex align-items-center justify-content-center">
             <Col className="d-flex align-items-center justify-content-center down">
                 <Card style={{ width: '18rem' }}>
-                  <Card.Img variant="top" src="./images/1st.png" />
+                  <Card.Img variant="top" src="./images/1st-final.png" />
                   <Card.Body>
                   <Card.Title>Enhancing Health and Flavor in a Small Town Eatery</Card.Title>
                   
@@ -153,7 +153,7 @@ export const Home = () => (
 
             <Col className="d-flex align-items-center justify-content-center down">
             <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src="./images/2nd.png" />
+              <Card.Img variant="top" src="./images/2nd-final.png" />
               <Card.Body>
                 <Card.Title>Cutting Edge Insights: A Case Study on Hairdresser Availability in Town</Card.Title>
                 
@@ -164,7 +164,7 @@ export const Home = () => (
 
             <Col className="d-flex align-items-center justify-content-center down">
             <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src="./images/3rd.png" />
+              <Card.Img variant="top" src="./images/3rd-final.png" />
               <Card.Body>
                 <Card.Title>LiftUp: Website Design for Non-Profit Recovery Pathways Inc</Card.Title>
                 
