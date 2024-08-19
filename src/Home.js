@@ -168,7 +168,7 @@ export const Home = () => (
               <Card.Body>
                 <Card.Title>LiftUp: Website Design for Non-Profit Recovery Pathways Inc</Card.Title>
                 
-                <Link to="#">Details</Link>
+                <Link to="/Project3">Details</Link>
               </Card.Body>
             </Card>
             </Col>
