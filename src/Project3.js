@@ -92,7 +92,7 @@ padding:20px;
 export const Project3 = () => (
   <Styles>
   <Container className="project">
-    <h2 pt-5>WellNest: Mental Health Support Platform</h2>
+    <h2 pt-5>LiftUp: Digital Platform for Addiction Recovery</h2>
     <Row className="tags">
       <Col>
     <span className="back">Product Design</span> <span className="back">Branding</span> <span className="back">End to End</span>
@@ -114,70 +114,102 @@ export const Project3 = () => (
     <br/>
     <span className= "bo">SECTOR</span>
     <br/>
-    <span className="faint">Personal Care Services</span>
+    <span className="faint">Social Services and Community Support</span>
     <br/>
     </Col>
     
     </Row>
     <hr/>
-    <img alt="Prototype" width="100%" height="80%"className="align-items-center justify-content-center" src="./images/cover2.png"/>
+    <img alt="Prototype" width="100%" height="80%"className="align-items-center justify-content-center" src="./images/coverproject3.png"/>
     <div className="p-5">
       <h2 className="tags">Introduction</h2>
-      <p className="pt-2">a digital platform that provides resources, tools, and peer support for individuals struggling with mental health issues, such as depression, anxiety, or PTSD. Incorporate features like mood tracking, self-care exercises, and access to professional therapists.</p>
+      <p className="pt-2">Recovering from addiction is a tough journey, filled with emotional, social, and mental challenges. This project, "LiftUp: Digital Platform for Addiction Recovery" aims to create an easy-to-use digital platform that helps people in recovery. By focusing on the needs of users, we want to build a supportive community, boost motivation, and provide important resources for those working to overcome addiction. This case study will show our research, design process, and the unique features we developed to support and empower people on their recovery path.</p>
     <h2 className="tags">Problem</h2>
-    <h2 className="pt-2">Stigma, limited access, and healthcare complexities hinder mental health support-seeking, perpetuating isolation.</h2>
-    <p className="pt-2">Despite the increasing awareness of mental health issues, many individuals continue to face significant barriers in accessing timely and effective support and resources. Stigma, limited availability of mental health services, and difficulty navigating the complex healthcare system contribute to a lack of support for those in need. As a result, individuals struggling with mental health challenges often feel isolated, overwhelmed, and unable to seek the help they deserve.</p>
-    <p className="pt-2">Many individuals face challenges in accessing mental health services, including long wait times, geographical barriers, and affordability issues.
+    <h2 className="pt-2">Many in recovery lack support and resources, risking relapse and isolation.</h2>
+    <p className="pt-2">Individuals in addiction recovery struggle with feelings of isolation, inconsistent access to support, and a lack of personalized resources. Current digital platforms often fail to provide a comprehensive, user-friendly experience that addresses these needs effectively. As a result, recovering addicts may find it difficult to stay motivated and connected, leading to increased risk of relapse. "LiftUp: Digital Platform for Addiction Recovery" aims to tackle these issues by creating an intuitive, supportive digital platform. Our goal is to build a community-focused, easily navigable space that offers personalized resources, progress tracking, and immediate access to support, empowering individuals on their path to recovery.</p>
+    
 
-</p>
+
     <Row className="pt-5 splitter">
       <Col className="split">
-      <img className="proto" alt="Prototype-gif" width="95%" height="100%" src="./images/gif-2.gif"/>
+      <img className="proto" alt="Prototype-gif" width="95%" height="100%" src="./images/cover3.png"/>
       
       </Col>
       <Col className="split">
       <h2 className="tags">Solution</h2>
-      <h2 className="pt-2">Designing a Mental Health Support Platform to break down barriers, combat stigma, and provide accessible resources for individuals facing mental health challenges.</h2>
-      <p className="pt-2">Addressing the significant barriers of stigma, limited access, and complex healthcare systems to ensure individuals facing mental health challenges can easily access support and resources.</p>
+      <h2 className="pt-2">Create an intuitive, supportive digital platform offering community, resources, and progress tracking.</h2>
+      <p className="pt-2">Addressing the significant barriers of stigma, limited access, and complex support systems to ensure individuals facing addiction recovery can easily access support and resources.</p>
       </Col>
     </Row>
     <h2 className="tags pt-5">RESEARCH</h2>
     <p className= "bo pt-2">Identifying opportunity</p>
+    <p className="p-2">To achieve these objectives, I tried to utilized a combination of qualitative and quantitative research methods, engaging a diverse group of participants from the nonprofit’s community.</p>
     <p className= "faint1 pt-2">Part One:</p>
-    <p className= "bo pt-2">Method: Observation</p>
+    <p className= "bo pt-2">Method: Survey</p>
+    <p className= "bo pt-2">Purpose:</p>
+    <p>To collect broad quantitative data on user demographics, current recovery resources, and key challenges.</p>
+    
+    <p className= "bo pt-2">Participants:</p>
+    <p>10 individuals in recovery, facilitated by the nonprofit’s network</p>
+    <p className= "bo pt-2">Key Questions:</p>
     <ul className="color-back p-5">
-      <li className="p-2">How frequently do you visit salons for haircuts or other beauty services?</li>
-      <li className="p-2">What challenges do you face when booking salon appointments?</li>
-      <li className="p-2">How likely are you to use an online booking system for salon appointments if it were available?</li>
+      <li className="p-2">What type of addiction are you recovering from? (e.g., alcohol, drugs, prescription medication)</li>
+      <li className="p-2">How long have you been in recovery?</li>
+      <li className="p-2">What resources do you currently use for support? (e.g., in-person meetings, online resources, mobile apps, telehealth services)</li>
+      <li className="p-2">How easy is it for you to find and access recovery resources? (scale from very easy to very difficult)</li>
+      <li className="p-2">What are the biggest challenges you face in your recovery journey?</li>
    </ul>
-   <div className="find">
-   <p className="sol">Findings</p>
-   <h4 className="sol" >Frequency of Salon Visits:</h4>
-   <p>Finding: Many respondents visit salons regularly for haircuts or beauty services.</p>
-   <p>Opportunity: There is a consistent demand for salon services, indicating potential for increased bookings through the platform.</p>
-   <h4 className="sol" >Challenges with Current Booking Process:</h4>
-   <p>Finding: Users face various challenges such as difficulty finding available time slots and long wait times for appointments.</p>
-   <p>Opportunity: Addressing these pain points by offering real-time availability updates and automated appointment reminders can improve user satisfaction and streamline the booking process.</p>
-   <h4 className="sol">Interest in Online Booking System:</h4>
-   <p>Finding: There is a high level of interest among users in using an online booking system for salon appointments.</p>
-   <p>Opportunity:  Introducing an online booking system can attract more users to the platform and provide added convenience, leading to increased bookings and customer engagement.</p>
    
+   <p className= "faint1 pt-5">Part Two:</p>
+    <p className= "bo pt-2">Interviews</p>
+    <p className= "bo pt-2">Purpose:</p>
+    <p>To gain in-depth qualitative insights into individual experiences, needs, and pain points.</p>
+    
+    <p className= "bo pt-2">Participants:</p>
+    <p>10 individuals selected from the survey respondents for detailed one-on-one interviews.</p>
+
+    <p className= "bo pt-2">Key Questions:</p>
+    <ul>
+      <li className="p-2">Can you describe your typical day in recovery and the tools you use?</li>
+      <li className="p-2">What are the most significant barriers you face in accessing support and resources?</li>
+      <li className="p-2">How do you feel about the privacy and security of current digital platforms you use?</li>
+      <li className="p-2">What features or functionalities would make a recovery platform more helpful for you?</li>
+      <li className="p-2">Have you experienced any usability issues with current digital recovery platforms? If so, what were they?</li>
+    </ul>
+
+    <div className="find">
+   <p className="sol">Findings</p>
+   <h4 className="sol" >Accessibility Issues:</h4>
+   <p>Many users reported difficulty navigating current digital platforms due to complex interfaces and poor usability.</p>
+   <p>Visual impairments and motor disabilities were common issues, highlighting the need for better accessibility features.</p>
+   <h4 className="sol" >Privacy Concerns:</h4>
+   <p>A significant number of participants expressed concerns about privacy and anonymity when using digital recovery services.</p>
+   <p>Users emphasized the importance of secure communication and clear privacy policies.</p>
+   <h4 className="sol">Support and Resources:</h4>
+   <p>Personalized resources and progress tracking were highly desired features.</p>
+   <p>Users valued community support, including peer interaction and support groups.</p>
+   
+   <h4 className="sol">Motivation and Engagement:</h4>
+   <p>Gamification elements, such as badges and rewards, were seen as motivating factors.</p>
+   <p>Regular reminders and progress updates were important for maintaining engagement.</p>
+
    
    </div>
-   <p className= "faint1 pt-5">Part Two:</p>
-    <p className= "bo pt-2">Understanding the problem</p>
-    <p className= "bo pt-2">Method: Survey, interview, competetive analysis, affinity mapping, persona, user journey map</p>
-    <p>To further understand the problem and to find the opportunities to present better solutions, I did survey with five participants and categorized their pain points as following:</p>
-    
+
+   <div className="pt-5">
+    <p className="sol color-back p-5">
+    The user research provided invaluable insights into the needs and challenges faced by individuals in addiction recovery. By addressing these findings, "LiftUp" aims to create a user-friendly, secure, and supportive digital platform that enhances the recovery journey. The collaboration with [RecoveryPath Inc] ensured that our design was grounded in real-world experiences and tailored to meet the unique needs of their community.
+    </p>
+   </div>
+
     <h4 className="pt-5">Pain Points</h4>
     <Row className="d-flex align-items-center justify-content-center pt-5 pd-5">
       <Col className="d-flex align-items-center justify-content-center">
         <Card>
           <h1 className="circle">1</h1>
           <Card.Body>
-          <Card.Title>Limited Availability</Card.Title>
-              <Card.Text>Participants struggle to find suitable time slots due to limited availability, leading to frustration and inconvenience.
-              </Card.Text>
+          <Card.Text>Difficulty navigating complex interfaces and poor usability can frustrate users and deter them from accessing necessary resources easily.</Card.Text>
+              
           </Card.Body>
         </Card>
       </Col>
@@ -186,11 +218,9 @@ export const Project3 = () => (
         <Card>
         <h1 className="circle">2</h1>
       <Card.Body>
-      <Card.Title>Long Wait Times</Card.Title>
+      <Card.Text>Concerns about privacy are significant barriers for individuals. Fear of judgment can prevent users from fully utilizing recovery services.</Card.Text>
       
-      <Card.Text>Booking appointments often involves long wait times on the phone or delayed responses, discouraging users and impacting customer satisfaction.
-        
-        </Card.Text>
+      
       </Card.Body>
       </Card>
       </Col>
@@ -200,10 +230,18 @@ export const Project3 = () => (
         <Card>
         <h1 className="circle">3</h1>
         <Card.Body>
-        <Card.Title>Lack of Options</Card.Title>
-        <Card.Text>Users have limited visibility into available services or stylists, making it difficult to find the right match for their preferences and needs.
-          
-          </Card.Text>
+        <Card.Text>Limited access to personalized resources and progress tracking tools can hinder users' ability to effectively manage and monitor their recovery.</Card.Text>
+        
+          </Card.Body>
+        </Card>
+      </Col>
+
+      <Col className="d-flex align-items-center justify-content-center">
+        <Card>
+        <h1 className="circle">4</h1>
+        <Card.Body>
+        <Card.Text>Users may struggle to stay motivated and engaged over time without features like gamification, reminders, and progress updates.</Card.Text>
+        
           </Card.Body>
         </Card>
       </Col>
@@ -213,67 +251,70 @@ export const Project3 = () => (
     </Row>
     <div className="find pt-5">
    <p className="sol">Findings</p>
-   <h4 className="sol">Real-time updates, online booking, and comprehensive information address key salon booking pain points.</h4>
-   <p>The pain points reveal opportunities to enhance the salon booking experience. Implementing real-time updates on available time slots addresses the frustration of limited availability, streamlining the booking process and improving convenience. Introducing an online booking system reduces wait times, offering users more control over appointments. Providing comprehensive information about services and stylists empowers users to make informed decisions, fostering satisfaction and loyalty. By addressing these pain points, salons can improve user experience, increase customer satisfaction, and optimize operational efficiency.</p>
+   <ul>
+    <li className="p-2">Users may struggle to stay motivated and engaged over time without features like gamification, reminders, and progress updates.</li>
+    <li className="p-2">Without assurances of privacy, users may hesitate to share personal information or participate in online communities, limiting their access to valuable support networks.
+    </li>
+    <li className="p-2">Lack of tailored support may lead to feelings of isolation or inadequacy, potentially affecting motivation and progress in recovery efforts.</li>
+    <li className="p-2">Low motivation can contribute to relapse or disengagement from recovery programs, underscoring the importance of tools that sustain user interest and commitment.</li>
+   </ul>
+
+   <p className="sol color-back p-5">
+   Addressing these pain points through thoughtful design and development of "LiftUp" will be crucial in creating a platform that not only meets the functional needs of users but also supports their emotional and psychological well-being throughout their recovery journey.
+   </p>
     <HashLink smooth to="#conclusion">Jump to the conclusion</HashLink>
   </div>
 
-
-  <h4 className="pt-5">Affinity Map</h4>
-  <p>I sampled their various thoughts, behaviors, and their preference, tried to do affinity mapping to identify themes and patterns to do further research and find commonalities in data.</p>
-  <img alt="affinity-map" width="100%" height="100%" src="./images/affinity-map-2.jpg"/>
-  <img alt="affinity-map" width="100%" height="100%" src="./images/affinity-map-org-2.jpg"/>
-  <div className="find pt-5">
-   <p className="sol">Findings</p>
-  <ul>
-    <li>1. Real-time Updates</li>
-    <p>Users seek instantaneous updates on appointment availability, indicating a demand for convenience and flexibility in scheduling.</p>
-    <li>2. Online Booking Demand</li>
-    <p> There's a strong preference for online booking systems to mitigate long wait times and offer users more control over their appointments.</p>
-    <li>3. Enhanced Information</li>
-    <p>  Users desire comprehensive details on services and stylists, underscoring the importance of transparency and informed decision-making for customer satisfaction and loyalty.</p>
-    <li>4. Need for Accessiblity</li>
-    <p>By prioritizing accessibility in the design and development of the salon booking platform, it becomes more inclusive and usable for all individuals, enhancing the overall user experience and ensuring that no one is excluded from accessing salon services.</p>
-    
-  </ul>
-    
+  <h4 className="pt-5">Empathy Map</h4>
+  <p>Creating an empathy map for a case study on addiction recovery involves understanding the thoughts, feelings, actions, and experiences of individuals going through this journey. Here is an Empathy Map:</p>
+  <div className="container d-flex align-items-center justify-content-center">
+  <img alt="empathy-map" width="70%"  src="./images/empathy-map.gif"/>
   </div>
+
+ 
     
     
     <h4 className="pt-5">User Persona</h4>
     <p>I found it to build user persona because it helps businesses and product developers better understand their users' needs and preferences, allowing them to tailor their offerings to provide a more satisfying experience. By incorporating demographic information, personal goals, and key behaviors, user personas serve as valuable tools for decision-making in product design, marketing strategies, and customer service initiatives.</p>
     <div className="container d-flex align-items-center justify-content-center">
-      <img alt="user-persona" width="70%" src="./images/user-persona-2.png"/>
+      <img alt="user-persona" width="70%" src="./images/user-persona-pr3.gif"/>
     </div>
 
-    <h4 className="pt-5">User Journey</h4>
-    <p>To understand the user concerns, I tried to  go through the user journey map and display her moods and pain points and opportunity areas to further clearify the problem and offer unique solution.</p>
-    <div className="container d-flex align-items-center justify-content-center">
-    <img alt="user-journey" width="70%" src="./images/user-journey-2.png"/>
-    </div>
+   
     <h4 className="pt-5">Competetive Analysis</h4>
     <p>After conducting survey, questionaires, the goal is to determine end user needs and tailor the best solution to make a seemless user experience.</p>
     <div className="container d-flex align-items-center justify-content-center">
-    <img alt="user-persona" width="70%" src="./images/competative-analysis-2.png"/>
+    <img alt="user-persona" width="70%" src="./images/competetive analysis3.png"/>
     </div>
     <div className="find pt-5">
-   <p className="sol">Key Findings</p>
+   <p className="sol">SWOT Analysis for Arbor Vitae Area</p>
  
-    <p>The most common features</p>
+    <p>Strengths</p>
     <ul>
-    <li>Online booking</li>
-    <li>Availability badge</li>
-    <li>Social Handles</li>
+    <li>Local Demand</li>
+    <li>Potential for community support</li>
+    </ul>
+
+    <p>Weaknesses</p>
+    <ul>
+    <li>Limited specialized addiction services</li>
+    <li>Accessibility issues for distant services</li>
+    </ul>
+
+    <p>Opportunities</p>
+    <ul>
+    <li>High potential to serve unmet needs</li>
+    <li>Telehealth service expansion</li>
+    <li>Partnerships with local health systems</li>
     </ul>
     
     
-    <p>Opportunity</p>
+    <p>Threats</p>
     <ul>
-    <li>Accessibility</li>
-    <li>Navigation</li>
-    <li>Cost of using apps</li>
-    
-    </ul>    
+    <li>Potential new market entrants</li>
+    <li>Changes in healthcare policy</li>
+    </ul> 
+
   </div>
 
   <h2 className="tags pt-5">IDEATE</h2>
@@ -281,17 +322,17 @@ export const Project3 = () => (
     <h4 className="pt-5">Site Map</h4>
     <p>The site map represents the structure of the website. The header of the website shows Home, Profile, Booking and Discover options and custom selections of services and salon availability in town to provide easy navigation for customers, choose favourite stylists options is available as well.</p>
     <div className="container d-flex align-items-center justify-content-center">
-    <img alt="site-map" width="70%" src="./images/site-map-2.png"/>
+    <img alt="site-map" width="70%" src="./images/sitemap3.png"/>
     </div>
     <h4 className="pt-5">User Flow</h4>
     <p>I designed the user experience by imagining the user flow of all stages they go through before placing order.</p>
     <div className="container d-flex align-items-center justify-content-center">
-    <img alt="user-flow" width="70%" src="./images/user-flow-2.png"/>
+    <img alt="user-flow" width="70%" src="./images/userflow3.png"/>
     </div>
     <p className="pt-5">This user experience is more personalized and give user more control over the options and selecting their personalized choices.</p>
 
     <h4 className="pt-5">USER TESTING (WIREFRAMES)</h4>
-    <img className="pt-5" width="100%" alt="wire-frames" src="./images/initial-sketch-2.png"/>
+    <img className="pt-5" width="100%" alt="wire-frames" src="./images/wireframe3.png" />
     <p className="pt-5">I asked the participants to navigate through the prototype with out guidance and suggest where it needs improvement.</p>
 
     <div className="color-back p-5">
@@ -305,48 +346,27 @@ export const Project3 = () => (
  
     <h4 className="pt-5">High Fidelity Design</h4>
     <p className="pt-5">The high-fidelity design showcases a seamless fusion of intricate detailing and cutting-edge functionality, elevating user experience to unparalleled heights. Every element has been meticulously crafted to exude sophistication and professionalism while ensuring intuitive navigation and effortless interaction.</p>
-    <img className="pt-5" width="100%" alt="high-fidelity" src="./images/high-fidelity-2.png"/>
+    <img className="pt-5" width="100%" alt="high-fidelity" src="./images/highfidelity3.png"/>
 
-    <h4 className="pt-5">Improvements</h4>
-    <p className="pt-5">The design improvements aim to enhance user experience by optimizing usability and visual appeal. 
-      Streamlined navigation enhances ease of use, allowing users to access desired features effortlessly. 
-      A cleaner layout reduces clutter and improves readability, guiding users through content more smoothly. 
-      Incorporating intuitive design elements, such as clear call-to-action buttons and simplified forms, 
-      encourages user engagement and interaction. Enhanced visual hierarchy and consistency in typography 
-      and color scheme create a cohesive and polished look, reinforcing brand identity. 
-      Overall, these improvements prioritize user needs, resulting in a more intuitive and 
-      visually appealing design that fosters a positive and seamless user experience.</p>
-      <div className="container d-flex align-items-center justify-content-center">
-        <Row>
-    <img className="pt-5" width="70%" alt="wire-frames" src="./images/change-1.png"/>
-    </Row>
-  
-    <Row>
-    <img className="pt-5" width="70%" alt="wire-frames" src="./images/change-2.png"/>
-    </Row>
-       </div> 
+    
 
     <h4 className="pt-5">Final Prototype</h4>
     <div className="container d-flex align-items-center justify-content-center">
-    <img className="pt-5" alt="Prototype-gif" width="50%" height="50%" src="./images/gif-2.gif"/>
+    <video className="pt-5" width="750" height="500" controls >
+      <source src="./images/prototype3.mp4" type="video/mp4"/>
+</video>
+    
     </div>
-    <h4 className="pt-5">STYLE GUIDE</h4>
-    <div className="container d-flex align-items-center justify-content-center">
-    <img className="pt-5" alt="style-guide" width="80%" height="80%" src="./images/style-guide-2.png"/>
-    </div>
+    
     <h4 className="pt-5" id="conclusion">CONCLUSION</h4>
-    <p className="pt-5">In conclusion, the case study on enhancing the salon booking experience underscores the importance of addressing key pain points to improve user satisfaction and operational efficiency. By identifying challenges such as limited availability, long wait times, lack of options, and the need for accessibility, opportunities for innovation and enhancement emerge.
-
-Implementing real-time updates, introducing an online booking system, providing comprehensive information about services and stylists, and ensuring accessibility are crucial steps in mitigating these pain points and elevating the salon booking experience.
-
-Through these enhancements, salons can optimize their operations, attract more clients, and foster customer loyalty. By prioritizing user-centric design and embracing technological solutions, the salon industry can embrace digital transformation and meet the evolving needs of today's consumers.</p>
+    <p className="pt-5">The addiction recovery website designed Recovery Path Inc, addresses a critical gap in the local healthcare landscape by providing accessible, high-quality addiction recovery services within an 800-kilometer radius. With a user-friendly interface, comprehensive resources, and essential services like appointment booking directly from the homepage, the website is poised to meet the needs of individuals seeking help. The competitive analysis highlights the strengths and opportunities in the local market, positioning the website as a leading resource in the region.</p>
       
 
-      <p>Future Considerations to improve the app:</p>
+      <p>Future Recommendations</p>
       <ul>
-        <li>Regularly gather feedback from users to identify emerging pain points and opportunities for further enhancement.</li>
-        <li>Explore emerging technologies such as AI chatbots or virtual reality for virtual consultations to further enhance the salon booking experience.</li>
-        <li>Consider expanding the platform to include additional services such as spa treatments or beauty packages to cater to a broader audience.</li>
+        <li><h4>Expand Telehealth Services:</h4> As demand for remote healthcare continues to grow, expanding telehealth offerings will allow the website to reach a broader audience, particularly in remote areas within the 800-kilometer radius.</li>
+        <li><h4>Integrate AI-driven Personalized Care:</h4> Utilize AI to provide personalized treatment recommendations and follow-up care based on individual patient data. This could improve patient outcomes and enhance the user experience.</li>
+        <li><h4>Explore Funding Opportunities:</h4> Seek grants or partnerships with local businesses and healthcare providers to expand services and ensure long-term sustainability.</li>
         </ul>
         </div>
    

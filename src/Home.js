@@ -53,6 +53,9 @@ const Styles = styled.div`
   padding-top: 1rem;
 }
 
+.tag1 {
+font-size:20px;
+}
 .highlight:hover {
   background-color: #e7f097;
 
@@ -107,6 +110,7 @@ const Styles = styled.div`
     line-height: 40px;
     padding: 1rem 0.5rem 0 0.5rem;
   }
+ 
 }  
 `;
 
@@ -120,7 +124,7 @@ export const Home = () => (
                         <h1 className="header faint">Maryam M.</h1>
                         <h1 className="header-under">UX Designer</h1>
                         <h2 className="tag">I <span className="highlight">design</span>, <span className="highlight">draw</span> and <span className="highlight">code</span>.</h2>
-                        <h2 className="tag"><span className="highlighted">Currently, Volunteering with North East Farmers of Color for their Research Project </span></h2>
+                        <h2 className="tag"><span className="highlighted tag1">Currently, Volunteering with North East Farmers of Color (NEFOC) Land Trust for their Research Project </span></h2>
                 </main>
               </Col>
   
@@ -162,7 +166,7 @@ export const Home = () => (
             <Card style={{ width: '18rem' }}>
               <Card.Img variant="top" src="./images/3rd.png" />
               <Card.Body>
-                <Card.Title>WellNest: Mental Health Support Platform (Coming Soon)</Card.Title>
+                <Card.Title>LiftUp: Website Design for Non-Profit Recovery Pathways Inc</Card.Title>
                 
                 <Link to="#">Details</Link>
               </Card.Body>
