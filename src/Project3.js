@@ -105,12 +105,12 @@ export const Project3 = () => (
     <span className="faint">UI/UX Design, Research Case Study</span>
     <br/>
     <br/>
-    <Link href="https://www.figma.com/file/N5JTOVf1nSVcJ9PuXsnSvG/Untitled?type=design&node-id=0%3A1&mode=design&t=HlnZppiEng32Pdy9-1">Figma Design files</Link>
+    <Link href="https://www.figma.com/design/CUf4GqT36oGMmQZkwCx0Zt/Untitled?node-id=0-1&t=U4AiqNDeHomjnhI2-1">Figma Design files</Link>
     </Col>
     <Col>
     <span className= "bo">TIMELINE</span>
     <br/>
-    <span className="faint">February to April 2024</span>
+    <span className="faint">June 2024</span>
     <br/>
     <span className= "bo">SECTOR</span>
     <br/>
