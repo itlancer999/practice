@@ -183,7 +183,7 @@ export const Home = () => (
              
               <h1 className="header faint">About</h1>
               <div className="p-5">
-              <p className="pt-3">Welcome! I'm Maryam, a passionate UX designer dedicated to creating 
+              <p className="pt-3">Welcome! I'm Maryam, a Certified UX designer dedicated to creating 
                 meaningful and delightful user experiences. With a background in Computer Science, I bring a unique blend of 
                 skills that combines user research, wireframing, prototyping and developing at the same time.
               </p>
