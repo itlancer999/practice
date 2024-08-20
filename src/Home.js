@@ -125,6 +125,7 @@ export const Home = () => (
                         <h1 className="header-under">UX Designer</h1>
                         <h2 className="tag">I <span className="highlight">design</span>, <span className="highlight">draw</span> and <span className="highlight">code</span>.</h2>
                         <h2 className="tag"><span className="highlighted tag1">Currently, Volunteering with North East Farmers of Color (NEFOC) Land Trust for their Research Project </span></h2>
+                        
                 </main>
               </Col>
   

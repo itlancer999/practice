@@ -57,8 +57,14 @@ export const Footer = () => (
        
           <h4>Let's Get In Touch</h4>
           <button onClick={() => window.location = 'mailto:it.lancer999@gmail.com'}> Email Me!</button>
+          
+     
+      
+ 
 
           <p className="pt-3">Designed and coded by me ♥ © Maryam M. 2024</p>
+
+          
        
     </Container>
  

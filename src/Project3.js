@@ -352,7 +352,7 @@ export const Project3 = () => (
 
     <h4 className="pt-5">Final Prototype</h4>
     <div className="container d-flex align-items-center justify-content-center">
-    <video className="pt-5" width="750" height="500" controls >
+    <video className="pt-5" controls >
       <source src="./images/prototype3.mp4" type="video/mp4"/>
 </video>
     
