@@ -50,6 +50,7 @@ padding:20px;
  width:90px;
  height:90px;
  display:flex;
+ flex-direction: column;
  align-items:center;
  text-align:center;
  justify-content:center;

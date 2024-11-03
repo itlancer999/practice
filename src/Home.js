@@ -72,6 +72,21 @@ font-size:20px;
   box-shadow:0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.headline {
+font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+font-style:italic;
+}
+
+.date-s{
+font-size: 14px;
+font-weight: bold;
+padding-down:2px;
+}
+.intern{
+font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
 @media screen and (max-width:768px){
 
   .down {
@@ -110,6 +125,12 @@ font-size:20px;
     line-height: 40px;
     padding: 1rem 0.5rem 0 0.5rem;
   }
+    .split {
+  display:flex;
+  flex-direction:column;
+
+  flex: 2 0 100%;
+}
  
 }  
 `;
@@ -124,12 +145,54 @@ export const Home = () => (
                         <h1 className="header faint">Maryam M.</h1>
                         <h1 className="header-under">UX Designer</h1>
                         <h2 className="tag">I <span className="highlight">design</span>, <span className="highlight">draw</span> and <span className="highlight">code</span>.</h2>
-                        <h2 className="tag"><span className="highlighted tag1">Currently, Volunteering with North East Farmers of Color (NEFOC) Land Trust for their Research Project </span></h2>
+                        <h2 className="tag"><span className="highlighted tag1">Currently, Volunteering with TwoHundredK Community</span></h2>
                         
                 </main>
               </Col>
   
           </Row>  
+  </Container>
+
+  <Container id="exp">
+          <Row>
+              <Col>
+              <h1 className="header faint">Experience</h1>
+              </Col>
+  
+          </Row>
+
+          <Row className="pt-5 d-flex align-items-center justify-content-center">
+            
+
+                <Col className="d-flex align-items-center justify-content-center down">
+                <Card style={{ width: '18rem' }}>
+                <Card.Img variant="top" src="./images/north-farmers.jpg"/>
+                </Card>
+                </Col>
+      <Col className="split">
+      <div className="p-5">
+      <h2 className="tags">UX Design Intern</h2>
+      <h2 className="pt-2 headline">Platform for a Non-Profit Farmers of Color to Apply for US Government Grants</h2>
+      <span className="date-s">June 2024 - Octuber 2024</span>
+      <br/>
+      <span className="date-s">Tools: Figma, Canva, Glide</span>
+      <ul className="intern">
+        <li>
+        Led the creation of user personas and journey maps for diverse roles within the platform, including farmers, representatives, contributors, committee members, and administrators, to ensure an inclusive and accessible user experience.
+        </li>
+        <li>
+        Developed user journey maps tailored to each role, identifying key pain points, touchpoints, and actionable insights to optimize the application and onboarding process.
+        </li>
+        <li>
+        Collaborated with cross-functional teams to gather requirements, refine user flows, and implement design solutions that prioritize accessibility and cultural relevance for American farmers.
+        </li>
+        <li>
+        Learned Glide to develop a user-friendly app tailored to help farmers of color apply for government grants, streamlining the process for primary users such as farmers, representatives, and administrators.
+        </li>
+      </ul>
+      </div>
+      </Col>
+      </Row>    
   </Container>
 
   <Container id="projects">
@@ -140,6 +203,18 @@ export const Home = () => (
   
           </Row>
           <Row className="pt-5 d-flex align-items-center justify-content-center">
+
+          <Col className="d-flex align-items-center justify-content-center down">
+            <Card style={{ width: '18rem' }}>
+              <Card.Img variant="top" src="./images/3rd-final.png" />
+              <Card.Body>
+                <Card.Title>LiftUp: Website Design for Non-Profit Recovery Pathways Inc</Card.Title>
+                
+                <Link to="/Project3">Details</Link>
+              </Card.Body>
+            </Card>
+            </Col>
+
             <Col className="d-flex align-items-center justify-content-center down">
                 <Card style={{ width: '18rem' }}>
                   <Card.Img variant="top" src="./images/1st-final.png" />
@@ -161,18 +236,7 @@ export const Home = () => (
                 <Link to="/Project2">Details</Link>
               </Card.Body>
             </Card>
-            </Col>
-
-            <Col className="d-flex align-items-center justify-content-center down">
-            <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src="./images/3rd-final.png" />
-              <Card.Body>
-                <Card.Title>LiftUp: Website Design for Non-Profit Recovery Pathways Inc</Card.Title>
-                
-                <Link to="/Project3">Details</Link>
-              </Card.Body>
-            </Card>
-            </Col>
+            </Col>        
           </Row>
         </Container>
 
