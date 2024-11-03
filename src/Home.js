@@ -175,7 +175,7 @@ export const Home = () => (
       <div className="p-5">
       <h2 className="tags">UX Design Intern</h2>
       <h2 className="pt-2 headline">Platform for a Non-Profit Northeast Farmers of Color to Apply for US Government Grants</h2>
-      <span className="date-s">June 2024 - Octuber 2024</span>
+      <span className="date-s">June 2024 - October 2024</span>
       <br/>
       <span className="date-s">Tools: Figma, Canva, Glide</span>
       <ul className="intern">
