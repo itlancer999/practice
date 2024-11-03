@@ -76,10 +76,12 @@ font-size:20px;
 font-family: 'Inter', sans-serif;
     -webkit-font-smoothing: antialiased;
 font-style:italic;
+font-size: 16px;
+font-weight:bold;
 }
 
 .date-s{
-font-size: 14px;
+font-size: 13px;
 font-weight: bold;
 padding-down:2px;
 }
@@ -172,7 +174,7 @@ export const Home = () => (
       <Col className="split">
       <div className="p-5">
       <h2 className="tags">UX Design Intern</h2>
-      <h2 className="pt-2 headline">Platform for a Non-Profit Farmers of Color to Apply for US Government Grants</h2>
+      <h2 className="pt-2 headline">Platform for a Non-Profit Northeast Farmers of Color to Apply for US Government Grants</h2>
       <span className="date-s">June 2024 - Octuber 2024</span>
       <br/>
       <span className="date-s">Tools: Figma, Canva, Glide</span>
