@@ -177,7 +177,7 @@ export const Home = () => (
       <Col className="split">
       <div className="p-5">
       <h2 className="tags">UX Design Intern</h2>
-      <h2 className="pt-2 headline">Platform for a Community Services Projects</h2>
+      <h2 className="pt-2 headline">Platform for Community Services Projects</h2>
       <span className="date-s">October 2024 - Present</span>
       <br/>
       <span className="date-s">Tools: Figma, Canva </span>
