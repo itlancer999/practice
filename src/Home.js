@@ -163,14 +163,47 @@ export const Home = () => (
   
           </Row>
 
+
+          
+          <Row className="pt-5 d-flex align-items-center justify-content-center">
+            
+      
+          <Col className="d-flex align-items-center justify-content-center down">
+                <Card style={{ width: '18rem' }}>
+                <Card.Img variant="top" src="./images/two-hundred-logo.jfif"/>
+                </Card>
+                </Col>
+                
+      <Col className="split">
+      <div className="p-5">
+      <h2 className="tags">UX Design Intern</h2>
+      <h2 className="pt-2 headline">Platform for a Community Services Projects</h2>
+      <span className="date-s">October 2024 - Present</span>
+      <br/>
+      <span className="date-s">Tools: Figma, Canva </span>
+      <ul className="intern">
+        <li>
+        Led the UX/UI redesign for Immigrant Entrepreneur Canada <span>(</span>IEC <span>)</span> website to improve usability and accessibility.
+        </li>
+        <li>
+        Designed the brand style sheet and proposed new logo concepts from different perspectives.
+        </li>
+        <li>
+        Took on a new project of Ottawa local vision clinic Chicco Opticals to build a landing page which will be used to educate people how to avoid vision issue, and help clinic build a dashboard to track patient information.
+        </li>
+        <li>
+        Contributed in research and created detailed user personas to align the dashboard design with business and user needs.
+        </li>
+      </ul>
+      </div>
+      </Col>
+
+      </Row> 
+
           <Row className="pt-5 d-flex align-items-center justify-content-center">
             
 
-                <Col className="d-flex align-items-center justify-content-center down">
-                <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="./images/north-farmers.jpg"/>
-                </Card>
-                </Col>
+                
       <Col className="split">
       <div className="p-5">
       <h2 className="tags">UX Design Intern</h2>
@@ -194,6 +227,12 @@ export const Home = () => (
       </ul>
       </div>
       </Col>
+
+      <Col className="d-flex align-items-center justify-content-center down">
+                <Card style={{ width: '18rem' }}>
+                <Card.Img variant="top" src="./images/north-farmers.jpg"/>
+                </Card>
+                </Col>
       </Row>    
   </Container>
 
