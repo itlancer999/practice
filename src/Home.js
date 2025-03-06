@@ -137,7 +137,7 @@ font-family: 'Inter', sans-serif;
 @media screen and (max-width:768px){
 
   .down {
-    padding-bottom:10px;
+    padding-bottom:30px;
   }
   .header {
     font-family: 'Inter', sans-serif;

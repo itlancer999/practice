@@ -94,7 +94,7 @@ padding:20px;
 export const Project3 = () => (
   <Styles>
   <Container className="project">
-    <h2 pt-5>LiftUp: Digital Platform for Addiction Recovery</h2>
+    <h2 className='pt-5'>LiftUp: Digital Platform for Addiction Recovery</h2>
     <Row className="tags">
       <Col>
     <span className="back">Product Design</span> <span className="back">Branding</span> <span className="back">End to End</span>
