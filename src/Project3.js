@@ -72,15 +72,16 @@ padding:20px;
 @media screen and (max-width:959px){
 .splitter {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
+
   width: 100%;
 }
 .split {
   display:flex;
   flex-direction:column;
 
-  flex: 2 0 100%;
+  flex: 1 0 100%;
+  margin-bottom:10px;
 }
 
 .card {

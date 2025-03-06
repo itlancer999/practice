@@ -297,7 +297,7 @@ export const Home = () => (
           <Row className="pt-5 d-flex align-items-center justify-content-center">
 
           <Col className="d-flex align-items-center justify-content-center down">
-            <Card style={{ width: '18rem' }}>
+            <Card className='enlarge-effect fade-in' style={{ width: '18rem' }}>
               <Card.Img variant="top" src="./images/3rd-final.png" />
               <Card.Body>
                 <Card.Title className="fade-in-text">LiftUp: Website Design for Non-Profit Recovery Pathways Inc</Card.Title>
@@ -308,7 +308,7 @@ export const Home = () => (
             </Col>
 
             <Col className="d-flex align-items-center justify-content-center down">
-                <Card style={{ width: '18rem' }}>
+                <Card className='enlarge-effect fade-in' style={{ width: '18rem' }}>
                   <Card.Img variant="top" src="./images/1st-final.png" />
                   <Card.Body>
                   <Card.Title className="fade-in-text">Enhancing Health and Flavor in a Small Town Eatery</Card.Title>
@@ -320,7 +320,7 @@ export const Home = () => (
             </Col>
 
             <Col className="d-flex align-items-center justify-content-center down">
-            <Card style={{ width: '18rem' }}>
+            <Card className='enlarge-effect fade-in' style={{ width: '18rem' }}>
               <Card.Img variant="top" src="./images/2nd-final.png" />
               <Card.Body>
                 <Card.Title className="fade-in-text">Cutting Edge Insights: A Case Study on Hairdresser Availability in Town</Card.Title>
