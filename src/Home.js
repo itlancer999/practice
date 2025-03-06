@@ -65,6 +65,11 @@ font-size:20px;
   background-color: #e7f097;
 
 }
+
+.highlighted1{
+  background-color: #b8db8a;
+
+}
 .card{
   background-color:transparent;
   border: 2px solid #000;
@@ -89,6 +94,46 @@ padding-down:2px;
 font-family: 'Inter', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
+
+.enlarge-effect {
+  transition: transform 0.3s ease-in-out;
+}
+
+.enlarge-effect:hover {
+  transform: scale(1.1);
+}
+
+.enlarge-effect:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 2s ease-in-out; /* Adjust duration as needed */
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-in-text {
+  animation: fadeIn 2s ease-in-out;
+}
+
 @media screen and (max-width:768px){
 
   .down {
@@ -144,10 +189,10 @@ export const Home = () => (
               <Col>
               <main role="main">
                    
-                        <h1 className="header faint">Maryam M.</h1>
-                        <h1 className="header-under">UX Designer</h1>
-                        <h2 className="tag">I <span className="highlight">design</span>, <span className="highlight">draw</span> and <span className="highlight">code</span>.</h2>
-                        <h2 className="tag"><span className="highlighted tag1">Currently, Volunteering with TwoHundredK Community</span></h2>
+                        <h1 className="header faint fade-in-text">Maryam M.</h1>
+                        <h1 className="header-under fade-in-text">UX Designer</h1>
+                        <h2 className="tag fade-in-text">I <span className="highlight">design</span>, <span className="highlight">draw</span> and <span className="highlight">code</span>.</h2>
+                        <h2 className="tag fade-in-text"><span className="highlighted tag1">Currently, Volunteering with TwoHundredK Community</span></h2>
                         
                 </main>
               </Col>
@@ -158,7 +203,7 @@ export const Home = () => (
   <Container id="exp">
           <Row>
               <Col>
-              <h1 className="header faint">Experience</h1>
+              <h1 className="header faint fade-in-text">Experience</h1>
               </Col>
   
           </Row>
@@ -170,29 +215,32 @@ export const Home = () => (
       
           <Col className="d-flex align-items-center justify-content-center down">
                 <Card style={{ width: '18rem' }}>
+                <a href="https://www.twohundredk.com/" target="_blank" rel="noopener noreferrer" className="enlarge-effect fade-in">
                 <Card.Img variant="top" src="./images/two-hundred-logo.jfif"/>
-                </Card>
-                </Col>
+                </a>
+                </Card>               
+          </Col>
                 
       <Col className="split">
       <div className="p-5">
-      <h2 className="tags">UX Design Intern</h2>
-      <h2 className="pt-2 headline">Platform for Community Services Projects</h2>
-      <span className="date-s">October 2024 - Present</span>
+      <h2 className="tags fade-in-text highlighted1">UX Design Intern</h2>
+      <h2 className="pt-2 headline fade-in-text">Platform for Community Services Projects <span className='highlighted'>TwoHundredK Community </span></h2>
+    
+      <span className="date-s fade-in-text">October 2024 - Present</span>
       <br/>
-      <span className="date-s">Tools: Figma, Canva </span>
-      <ul className="intern">
+      <span className="date-s fade-in-text">Tools: Figma, Canva </span>
+      <ul className="intern fade-in-text">
         <li>
         Led the UX/UI redesign for Immigrant Entrepreneur Canada <span>(</span>IEC <span>)</span> website to improve usability and accessibility.
         </li>
         <li>
-        Designed the brand style sheet and proposed new logo concepts from different perspectives.
+        Designed the <span className='highlighted'>Brand Style Sheet and proposed new logo</span> concepts from different perspectives.
         </li>
         <li>
-        Took on a new project of Ottawa local vision clinic Chicco Opticals to build a landing page which will be used to educate people how to avoid vision issue, and help clinic build a dashboard to track patient information.
+        Took on a new project of Ottawa local vision clinic Chicco Opticals to rebuild a landing page which will be used to educate people how to avoid vision issue, and help clinic build a dashboard to track patient information.
         </li>
         <li>
-        Contributed in research and created detailed user personas to align the dashboard design with business and user needs.
+        Contributed in research and created detailed <span className='highlighted'>user personas</span> to align the dashboard design with business and user needs.
         </li>
       </ul>
       </div>
@@ -206,23 +254,24 @@ export const Home = () => (
                 
       <Col className="split">
       <div className="p-5">
-      <h2 className="tags">UX Design Intern</h2>
-      <h2 className="pt-2 headline">Platform for a Non-Profit Northeast Farmers of Color to Apply for US Government Grants</h2>
-      <span className="date-s">June 2024 - October 2024</span>
+      <h2 className="tags fade-in-text highlighted1">UX Design Intern</h2>
+      <h2 className="pt-2 headline fade-in-text">Platform for a Non-Profit <span className='highlighted'>Northeast Farmers of Color</span> to Apply for US Government Grants</h2>
+      
+      <span className="date-s fade-in-text">June 2024 - October 2024</span>
       <br/>
-      <span className="date-s">Tools: Figma, Canva, Glide</span>
-      <ul className="intern">
+      <span className="date-s fade-in-text">Tools: Figma, Canva, Glide</span>
+      <ul className="intern fade-in-text">
         <li>
-        Led the creation of user personas and journey maps for diverse roles within the platform, including farmers, representatives, contributors, committee members, and administrators, to ensure an inclusive and accessible user experience.
+        Led the creation of <span className='highlighted'>user personas and journey maps</span> for diverse roles within the platform, including farmers, representatives, contributors, committee members, and administrators, to ensure an inclusive and accessible user experience.
         </li>
         <li>
-        Developed user journey maps tailored to each role, identifying key pain points, touchpoints, and actionable insights to optimize the application and onboarding process.
+        Developed user journey maps tailored to each role, <span className='highlighted'>identifying key pain points, touchpoints, and actionable insights</span> to optimize the application and onboarding process.
         </li>
         <li>
-        Collaborated with cross-functional teams to gather requirements, refine user flows, and implement design solutions that prioritize accessibility and cultural relevance for American farmers.
+        Collaborated with cross-functional teams to gather requirements, refine <span className='highlighted'>user flows</span>, and implement design solutions that prioritize accessibility and cultural relevance for American farmers.
         </li>
         <li>
-        Learned Glide to develop a user-friendly app tailored to help farmers of color apply for government grants, streamlining the process for primary users such as farmers, representatives, and administrators.
+        Learned <span className='highlighted'>Glide to develop a user-friendly app</span> tailored to help farmers of color apply for government grants, streamlining the process for primary users such as farmers, representatives, and administrators.
         </li>
       </ul>
       </div>
@@ -230,7 +279,9 @@ export const Home = () => (
 
       <Col className="d-flex align-items-center justify-content-center down">
                 <Card style={{ width: '18rem' }}>
+                <a href="https://nefoclandtrust.org/" target="_blank" rel="noopener noreferrer" className="enlarge-effect fade-in">
                 <Card.Img variant="top" src="./images/north-farmers.jpg"/>
+                </a>
                 </Card>
                 </Col>
       </Row>    
@@ -239,7 +290,7 @@ export const Home = () => (
   <Container id="projects">
           <Row>
               <Col>
-              <h1 className="header faint">Projects</h1>
+              <h1 className="header faint fade-in-text">Projects</h1>
               </Col>
   
           </Row>
@@ -249,9 +300,9 @@ export const Home = () => (
             <Card style={{ width: '18rem' }}>
               <Card.Img variant="top" src="./images/3rd-final.png" />
               <Card.Body>
-                <Card.Title>LiftUp: Website Design for Non-Profit Recovery Pathways Inc</Card.Title>
+                <Card.Title className="fade-in-text">LiftUp: Website Design for Non-Profit Recovery Pathways Inc</Card.Title>
                 
-                <Link to="/Project3">Details</Link>
+                <Link to="/Project3" className="fade-in-text">Details</Link>
               </Card.Body>
             </Card>
             </Col>
@@ -260,10 +311,10 @@ export const Home = () => (
                 <Card style={{ width: '18rem' }}>
                   <Card.Img variant="top" src="./images/1st-final.png" />
                   <Card.Body>
-                  <Card.Title>Enhancing Health and Flavor in a Small Town Eatery</Card.Title>
+                  <Card.Title className="fade-in-text">Enhancing Health and Flavor in a Small Town Eatery</Card.Title>
                   
                   
-                  <Link to="/Project">Details</Link>
+                  <Link to="/Project" className="fade-in-text">Details</Link>
                   </Card.Body>
                 </Card>
             </Col>
@@ -272,9 +323,9 @@ export const Home = () => (
             <Card style={{ width: '18rem' }}>
               <Card.Img variant="top" src="./images/2nd-final.png" />
               <Card.Body>
-                <Card.Title>Cutting Edge Insights: A Case Study on Hairdresser Availability in Town</Card.Title>
+                <Card.Title className="fade-in-text">Cutting Edge Insights: A Case Study on Hairdresser Availability in Town</Card.Title>
                 
-                <Link to="/Project2">Details</Link>
+                <Link to="/Project2" className="fade-in-text">Details</Link>
               </Card.Body>
             </Card>
             </Col>        
@@ -286,35 +337,35 @@ export const Home = () => (
           <Row>
               <Col>
              
-              <h1 className="header faint">About</h1>
+              <h1 className="header faint fade-in-text">About</h1>
               <div className="p-5">
-              <p className="pt-3">Welcome! I'm Maryam, a Certified UX designer dedicated to creating 
+              <p className="pt-3 fade-in-text">Welcome! <span className='highlighted'>I'm Maryam, a Certified UX designer</span> dedicated to creating 
                 meaningful and delightful user experiences. With a background in Computer Science, I bring a unique blend of 
                 skills that combines user research, wireframing, prototyping and developing at the same time.
               </p>
-              <h2 className="tag">My Journey</h2>
-              <p className="pt-3">My journey into the world of UX design began with the discovery of Google's Certification program. Since then, I've been fortunate to engage in a diverse array of projects that have not only refined my skills but also deepened my appreciation for user-centric design.
+              <h2 className="tag fade-in-text">My Journey</h2>
+              <p className="pt-3">My journey into the world of UX design began with the discovery of <span className='highlighted'>Google's Certification program</span>. Since then, I've been fortunate to engage in a diverse array of projects that have not only refined my skills but also deepened my appreciation for user-centric design.
               </p>
-              <p className="pt-3">
+              <p className="pt-3 fade-in-text">
               With a background in Computer Science, I bring a unique perspective to my work. Understanding the intricacies of both technology and human behavior allows me to craft intuitive interfaces and solutions that seamlessly blend form and function.
               </p>
 
-              <p className="pt-3">
+              <p className="pt-3 fade-in-text">
               But my journey doesn't stop there. Alongside my professional pursuits, I embrace the challenges and joys of motherhood, raising two incredible children. This experience has taught me the importance of empathy, adaptability, and resilience—qualities that I bring to every project.
               </p>
-              <p className="pt-3">Now, after a fulfilling break, I'm eager to make a strong comeback and immerse myself once again in the world of creativity and innovation. I believe in the power of collaboration, iteration, and continuous learning, and I'm excited to embark on this journey with renewed vigor.
+              <p className="pt-3 fade-in-text">Now, after a fulfilling break, I'm eager to make a strong comeback and immerse myself once again in the world of creativity and innovation. I believe in the power of collaboration, iteration, and continuous learning, and I'm excited to embark on this journey with renewed vigor.
               </p>
-              <p className="pt-3">Join me as we explore the endless possibilities of user-centric design together. Let's craft experiences that inspire, empower, and transform lives.</p>
-              <p className="pt-3">Thank you for visiting, and I look forward to connecting with you soon!</p>
-              <h2 className="tag">Interests & Experiences</h2>
-              <p className="pt-3">I love to work on creative projects. I have a digital print shop on 
+              <p className="pt-3 fade-in-text">Join me as we explore the endless possibilities of user-centric design together. Let's craft experiences that inspire, empower, and transform lives.</p>
+              <p className="pt-3 fade-in-text">Thank you for visiting, and I look forward to connecting with you soon!</p>
+              <h2 className="tag fade-in-text">Interests & Experiences</h2>
+              <p className="pt-3 fade-in-text">I love to work on creative projects. I have a digital print shop on 
               Etsy that I have started last year and It's been an immensely gratifying venture, allowing me to immerse myself in the world of whimsical digital art for children. I love to make digital art and it 
               is like an escape from reality to work on.
               </p>
-              <p className="pt-3">
+              <p className="pt-3 fade-in-text">
               In addition to running my Etsy shop, I've also had the pleasure of freelancing on various assignments from time to time, including catalog design and static website pages using Upwork platform. These projects have allowed me to further explore my passion for design and expand my skill set beyond digital art. 
               </p>
-              <Link href="https://www.etsy.com/ca/shop/Doodleshobbyshop">View Shop</Link>
+              <a href="https://www.etsy.com/ca/shop/Doodleshobbyshop">View Shop</a>
 
              
               </div>
