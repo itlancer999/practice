@@ -192,7 +192,7 @@ export const Home = () => (
                         <h1 className="header faint fade-in-text">Maryam M.</h1>
                         <h1 className="header-under fade-in-text">UX Designer</h1>
                         <h2 className="tag fade-in-text">I <span className="highlight">design</span>, <span className="highlight">draw</span> and <span className="highlight">code</span>.</h2>
-                        <h2 className="tag fade-in-text"><span className="highlighted tag1">Currently, Volunteering with TwoHundredK Community</span></h2>
+                        <h2 className="tag fade-in-text"><span className="highlighted tag1">Currently, Marketing Apprentice at Partner Development Group</span></h2>
                         
                 </main>
               </Col>
