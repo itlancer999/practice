@@ -134,6 +134,16 @@ font-family: 'Inter', sans-serif;
   animation: fadeIn 2s ease-in-out;
 }
 
+.responsive-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.text-block, .image-block {
+  flex: 1;
+}
+
+
 @media screen and (max-width:768px){
 
   .down {
@@ -178,6 +188,14 @@ font-family: 'Inter', sans-serif;
 
   flex: 2 0 100%;
 }
+
+.responsive-container {
+    flex-direction: column;
+  }
+.image-block {
+    order: -1; /* Move image above text */
+  }
+
  
 }  
 `;
@@ -208,20 +226,57 @@ export const Home = () => (
   
           </Row>
 
-
-          
-          <Row className="pt-5 d-flex align-items-center justify-content-center">
+        <Row className="pt-5 d-flex align-items-center justify-content-center">
             
       
           <Col className="d-flex align-items-center justify-content-center down">
                 <Card style={{ width: '18rem' }}>
-                <a href="https://www.twohundredk.com/" target="_blank" rel="noopener noreferrer" className="enlarge-effect fade-in">
-                <Card.Img variant="top" src="./images/two-hundred-logo.jfif"/>
+                <a href="https://www.partnerdevelopmentgroup.com/" target="_blank" rel="noopener noreferrer" className="enlarge-effect fade-in">
+                <Card.Img variant="top" style={{ backgroundColor: 'black', border: '1px solid white', padding:'10px'}} src="./images/pdg-logo.png"/>
                 </a>
                 </Card>               
           </Col>
                 
       <Col className="split">
+      <div className="p-5">
+      <h2 className="tags fade-in-text highlighted1">Marketing Apprentice &amp; UX Collaboration</h2>
+      <h2 className="pt-2 headline fade-in-text">Platform to enable and support Microsoft Partners in achieving Microsoft Partner Badges through <span className='highlighted'>Partner Development Group</span> services.</h2>
+    
+      <span className="date-s fade-in-text">October 2025 - Present</span>
+      <br/>
+      <span className="date-s fade-in-text">Tools: Figma, Canva, Wordpress Elementor, Powerpoint, Constant Connect, Procreate </span>
+      <br/><p>Key contributions included:</p>
+      <ul className="intern fade-in-text">
+        <li>
+        <b>Website Redesign:</b> <span className="highlighted">Revamped all pages</span> using Elementor to create clean, responsive layouts and engaging visuals.
+        </li>
+        <li>
+        <b>User Experience Enhancement:</b> Simplified navigation flow and improved readability by adjusting typography, spacing, and content alignment, improved <span className='highlighted'>User Journeys</span>, <span className='highlighted'>Competitive Analysis</span> to measure strength and weaknesses.
+        </li>
+        <li>
+          <b>Visual Design & Branding:</b> Designed background elements, gradients, and interactive sections to maintain a cohesive Microsoft-inspired aesthetic.
+        </li>
+        <li>
+          <b>Collaboration:</b> Worked closely with the development and content teams to align design solutions with business goals and technical constraints.
+        </li>
+        <li>
+          <b>Presentation & Communication:</b> Created slides and visual assets for internal meetings and mentor reviews, demonstrating design decisions and progress clearly.
+        </li>
+      </ul>
+      <p>
+        This project strengthened my ability to combine creative design thinking with practical implementation, ensuring that user needs and business objectives work hand in hand. <span className='highlighted'>Click on the logo to visit the wesite and explore the redesign.</span>
+      </p>
+      </div>
+      </Col>
+
+      </Row> 
+          
+          <Row className="pt-5 d-flex align-items-center justify-content-center responsive-container">
+            
+      
+          
+                
+      <Col className="split text-block">
       <div className="p-5">
       <h2 className="tags fade-in-text highlighted1">UX Design Intern</h2>
       <h2 className="pt-2 headline fade-in-text">Platform for Community Services Projects <span className='highlighted'>TwoHundredK Community </span></h2>
@@ -246,11 +301,25 @@ export const Home = () => (
       </div>
       </Col>
 
+      <Col className="d-flex align-items-center justify-content-center down image-block">
+                <Card style={{ width: '18rem' }}>
+                <a href="https://www.twohundredk.com/" target="_blank" rel="noopener noreferrer" className="enlarge-effect fade-in">
+                <Card.Img variant="top" src="./images/two-hundred-logo.jfif"/>
+                </a>
+                </Card>               
+          </Col>
+
       </Row> 
 
           <Row className="pt-5 d-flex align-items-center justify-content-center">
             
-
+      <Col className="d-flex align-items-center justify-content-center down">
+                <Card style={{ width: '18rem' }}>
+                <a href="https://nefoclandtrust.org/" target="_blank" rel="noopener noreferrer" className="enlarge-effect fade-in">
+                <Card.Img variant="top" src="./images/north-farmers.jpg"/>
+                </a>
+                </Card>
+                </Col>
                 
       <Col className="split">
       <div className="p-5">
@@ -277,13 +346,7 @@ export const Home = () => (
       </div>
       </Col>
 
-      <Col className="d-flex align-items-center justify-content-center down">
-                <Card style={{ width: '18rem' }}>
-                <a href="https://nefoclandtrust.org/" target="_blank" rel="noopener noreferrer" className="enlarge-effect fade-in">
-                <Card.Img variant="top" src="./images/north-farmers.jpg"/>
-                </a>
-                </Card>
-                </Col>
+      
       </Row>    
   </Container>
 
