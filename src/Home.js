@@ -264,7 +264,7 @@ export const Home = () => (
         </li>
       </ul>
       <p>
-        This project strengthened my ability to combine creative design thinking with practical implementation, ensuring that user needs and business objectives work hand in hand. <span className='highlighted'>Click on the logo to visit the wesite and explore the redesign.</span>
+        This project strengthened my ability to combine creative design thinking with practical implementation, ensuring that user needs and business objectives work hand in hand. <span className='highlighted'>Click on the logo to visit the website and explore the redesign.</span>
       </p>
       </div>
       </Col>
