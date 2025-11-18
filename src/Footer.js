@@ -45,6 +45,9 @@ const Styles = styled.div`
     justify-content:center;
 
    }
+
+   .highlight-b{
+    background-color: #b8db8a;}
  
 `;
 
@@ -56,7 +59,7 @@ export const Footer = () => (
        
        
           <h4>Let's Get In Touch</h4>
-          <button onClick={() => window.location = 'mailto:it.lancer999@gmail.com'}> Email Me!</button>
+          <button classsName="highlight-b" onClick={() => window.location = 'mailto:it.lancer999@gmail.com'}> Email Me!</button>
           
      
       
