@@ -17,7 +17,7 @@ const Styles = styled.div`
     background-image: url("./images/background-texture.jpg");
   }
     button {
-    background-color: #d3d3d3;
+    background-color: #b8db8a;
     padding: 10px;
     border-style: none;
     font-weight: bold;
@@ -46,8 +46,7 @@ const Styles = styled.div`
 
    }
 
-   .highlight-b{
-    background-color: #b8db8a;}
+   
  
 `;
 
@@ -59,7 +58,7 @@ export const Footer = () => (
        
        
           <h4>Let's Get In Touch</h4>
-          <button classsName="highlight-b" onClick={() => window.location = 'mailto:it.lancer999@gmail.com'}> Email Me!</button>
+          <button onClick={() => window.location = 'mailto:it.lancer999@gmail.com'}> Email Me!</button>
           
      
       
