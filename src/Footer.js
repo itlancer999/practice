@@ -64,7 +64,7 @@ export const Footer = () => (
       
  
 
-          <p className="pt-3">Designed and coded by me ♥ © Maryam M. 2024</p>
+          <p className="pt-3">Designed and coded by me ♥ © Maryam M. 2025</p>
 
           
        
