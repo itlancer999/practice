@@ -143,6 +143,11 @@ font-family: 'Inter', sans-serif;
   flex: 1;
 }
 
+.link-color {
+color: #b8db8a;
+text-decoration:none;
+}
+
 
 @media screen and (max-width:768px){
 
@@ -427,7 +432,7 @@ export const Home = () => (
               <p className="pt-3 fade-in-text">
               In addition to running my Etsy shop, I've also had the pleasure of freelancing on various assignments from time to time, including catalog design and static website pages using Upwork platform. These projects have allowed me to further explore my passion for design and expand my skill set beyond digital art. 
               </p>
-              <a href="https://www.etsy.com/ca/shop/Doodleshobbyshop">View Shop</a>
+              <a href="https://www.etsy.com/ca/shop/Doodleshobbyshop" className="link-color">View Shop</a>
 
              
               </div>
