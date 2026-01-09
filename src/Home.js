@@ -370,7 +370,7 @@ export const Home = () => (
               <Card.Body>
                 <Card.Title className="fade-in-text">LiftUp: Website Design for Non-Profit Recovery Pathways Inc</Card.Title>
                 
-                <Link to="/Project3" className="fade-in-text">Details</Link>
+                <Link to="/Project3" className="fade-in-text link-color">Details</Link>
               </Card.Body>
             </Card>
             </Col>
@@ -380,9 +380,10 @@ export const Home = () => (
                   <Card.Img variant="top" src="./images/1st-final.png" />
                   <Card.Body>
                   <Card.Title className="fade-in-text">Enhancing Health and Flavor in a Small Town Eatery</Card.Title>
-                  
-                  
-                  <Link to="/Project" className="fade-in-text">Details</Link>
+
+
+
+                  <Link to="/Project" className="fade-in-text link-color">Details</Link>
                   </Card.Body>
                 </Card>
             </Col>
@@ -393,7 +394,7 @@ export const Home = () => (
               <Card.Body>
                 <Card.Title className="fade-in-text">Cutting Edge Insights: A Case Study on Hairdresser Availability in Town</Card.Title>
                 
-                <Link to="/Project2" className="fade-in-text">Details</Link>
+                <Link to="/Project2" className="fade-in-text link-color">Details</Link>
               </Card.Body>
             </Card>
             </Col>        
