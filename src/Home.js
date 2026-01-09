@@ -268,7 +268,7 @@ export const Home = () => (
           <b>Presentation & Communication:</b> Created slides and visual assets for internal meetings and mentor reviews, demonstrating design decisions and progress clearly.
         </li>
         <li>
-          <b>Search Engine Optimization:</b> Implemented SEO best practices to enhance website visibility and search rankings.
+          <b>Search Engine Optimization:</b> Implemented <span className="highlighted">SEO</span> best practices to enhance website visibility and search rankings.
         </li>
         <li>
           <b>Video Editing:</b> Edited promotional videos to showcase services and client testimonials.
