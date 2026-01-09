@@ -210,7 +210,7 @@ export const Home = () => (
                         <h1 className="header faint fade-in-text">Maryam M.</h1>
                         <h1 className="header-under fade-in-text">UX Designer</h1>
                         <h2 className="tag fade-in-text">I <span className="highlight">design</span>, <span className="highlight">draw</span> and <span className="highlight">code</span>.</h2>
-                        <h2 className="tag fade-in-text"><span className="highlighted tag1">Currently, Marketing Apprentice at Partner Development Group</span></h2>
+                        <h2 className="tag fade-in-text"><span className="highlighted tag1">Currently, Looking for opportunities.</span></h2>
                         
                 </main>
               </Col>
@@ -414,10 +414,9 @@ export const Home = () => (
               </p>
 
               <p className="pt-3 fade-in-text">
-              But my journey doesn't stop there. Alongside my professional pursuits, I embrace the challenges and joys of motherhood, raising two incredible children. This experience has taught me the importance of empathy, adaptability, and resilience—qualities that I bring to every project.
+              Beyond my professional work, my life experiences have shaped how I think and design. They have strengthened my ability to empathize with users, adapt to change, and stay resilient in complex situations—skills that guide my approach to every project.
               </p>
-              <p className="pt-3 fade-in-text">Now, after a fulfilling break, I'm eager to make a strong comeback and immerse myself once again in the world of creativity and innovation. I believe in the power of collaboration, iteration, and continuous learning, and I'm excited to embark on this journey with renewed vigor.
-              </p>
+              
               <p className="pt-3 fade-in-text">Join me as we explore the endless possibilities of user-centric design together. Let's craft experiences that inspire, empower, and transform lives.</p>
               <p className="pt-3 fade-in-text">Thank you for visiting, and I look forward to connecting with you soon!</p>
               <h2 className="tag fade-in-text">Interests & Experiences</h2>
