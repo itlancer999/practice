@@ -247,7 +247,7 @@ export const Home = () => (
       <h2 className="tags fade-in-text highlighted1">Marketing Apprentice &amp; UX Collaboration</h2>
       <h2 className="pt-2 headline fade-in-text">Platform to enable and support Microsoft Partners in achieving Microsoft Partner Badges through <span className='highlighted'>Partner Development Group</span> services.</h2>
     
-      <span className="date-s fade-in-text">October 2025 - Present</span>
+      <span className="date-s fade-in-text">October 2025 - January 2026</span>
       <br/>
       <span className="date-s fade-in-text">Tools: Figma, Canva, Wordpress Elementor, Powerpoint, Constant Connect, Procreate </span>
       <br/><p>Key contributions included:</p>
@@ -266,6 +266,12 @@ export const Home = () => (
         </li>
         <li>
           <b>Presentation & Communication:</b> Created slides and visual assets for internal meetings and mentor reviews, demonstrating design decisions and progress clearly.
+        </li>
+        <li>
+          <b>Search Engine Optimization:</b> Implemented SEO best practices to enhance website visibility and search rankings.
+        </li>
+        <li>
+          <b>Video Editing:</b> Edited promotional videos to showcase services and client testimonials.
         </li>
       </ul>
       <p>
