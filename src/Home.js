@@ -292,7 +292,7 @@ export const Home = () => (
       <h2 className="tags fade-in-text highlighted1">UX Design Intern</h2>
       <h2 className="pt-2 headline fade-in-text">Platform for Community Services Projects <span className='highlighted'>TwoHundredK Community </span></h2>
     
-      <span className="date-s fade-in-text">October 2024 - Present</span>
+      <span className="date-s fade-in-text">October 2024 - October 2025</span>
       <br/>
       <span className="date-s fade-in-text">Tools: Figma, Canva </span>
       <ul className="intern fade-in-text">
